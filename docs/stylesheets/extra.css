@@ -40,7 +40,8 @@ input, textarea { caret-color: #153f34; }
 .md-typeset h2 { font-weight: 730; color: #153f34; letter-spacing: -.02em; margin-top: 2.1em; line-height: 1.35; text-wrap: balance; }
 .md-typeset h3 { font-weight: 700; color: #153f34; }
 .md-typeset p, .md-typeset ul, .md-typeset ol { max-width: 73ch; }
-.md-typeset a { text-underline-offset: .18em; }
+.md-typeset a { text-decoration: underline; text-underline-offset: .18em; }
+.md-typeset a.headerlink { text-decoration: none; }
 .md-typeset a:hover { text-decoration: underline; }
 .md-typeset li { margin-bottom: .5em; }
 .md-typeset strong { font-weight: 750; }
