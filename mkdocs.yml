@@ -1,0 +1,69 @@
+site_name: Service Quality Review
+site_description: Practical guides for evidence-based service quality reviews in Jira Service Management. Set up programs, review requests, calibrate standards, and act on findings.
+site_url: https://magnascale.github.io/sqrjsm-public-docs/
+site_author: Magnascale
+repo_url: https://github.com/magnascale/sqrjsm-public-docs
+repo_name: Documentation source
+copyright: Copyright © Magnascale. All rights reserved.
+strict: true
+theme:
+  name: material
+  language: en
+  logo: assets/sqr-logo.svg
+  favicon: assets/sqr-logo.png
+  custom_dir: overrides
+  font: false
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@magnascale.com
+      name: Contact Magnascale support
+nav:
+  - Start here:
+      - Welcome: index.md
+      - Installation: getting-started/installation.md
+      - Your first review: getting-started/first-review.md
+      - Roles and access: getting-started/roles.md
+  - Run a program:
+      - Programs and people: guides/programs.md
+      - Review criteria: guides/criteria.md
+      - Periods and sampling: guides/periods.md
+  - Review and improve:
+      - Complete a review: guides/reviews.md
+      - AI evidence assistance: guides/ai.md
+      - Calibration: guides/calibration.md
+      - Results and exports: guides/results.md
+      - Findings and coaching: guides/findings-coaching.md
+  - Administration:
+      - Manage access: administration/access.md
+      - Data and retention: administration/data.md
+      - Subscriptions and limits: administration/subscriptions.md
+  - Help:
+      - Troubleshooting: help/troubleshooting.md
+      - Contact support: help/support.md
+      - Glossary: help/glossary.md
+      - Availability and policies: help/availability.md

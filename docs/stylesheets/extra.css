@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Manrope;
+  src: url('../assets/fonts/Manrope.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+:root, [data-md-color-scheme="default"] {
+  --md-text-font: Manrope, sans-serif;
+  --md-primary-fg-color: #153f34;
+  --md-primary-fg-color--light: #285a48;
+  --md-primary-fg-color--dark: #103127;
+  --md-primary-bg-color: #fffefa;
+  --md-accent-fg-color: #285a48;
+  --md-default-bg-color: #fffefa;
+  --md-default-fg-color: #253c34;
+  --md-default-fg-color--light: #496156;
+  --md-default-fg-color--lighter: #65796e;
+  --md-typeset-a-color: #245e47;
+  --md-footer-bg-color: #153f34;
+  --md-footer-bg-color--dark: #103127;
+  --md-code-bg-color: #f0f1e9;
+}
+html { scroll-padding-top: 8rem; }
+body { font-feature-settings: 'ss01'; }
+::selection { background: #d7ef90; color: #153f34; }
+:focus-visible { outline: 3px solid #467047; outline-offset: 3px; }
+input, textarea { caret-color: #153f34; }
+.md-header { box-shadow: 0 3px 16px #1031271f; }
+.md-header__topic { font-weight: 700; }
+.md-header .md-logo img { width: 1.6rem; height: 1.6rem; }
+.md-banner { background: #e9eedb; color: #253c34; }
+.md-banner__inner { margin: .55rem auto; font-size: .65rem; text-align: center; }
+.md-banner a { color: #245e47; font-weight: 700; text-decoration: underline; text-underline-offset: .18em; }
+.md-tabs { background: #153f34; }
+.md-tabs__link { opacity: .88; }
+.md-tabs__link--active, .md-tabs__link:hover { color: #d7ef90; opacity: 1; }
+.md-typeset { font-size: .82rem; line-height: 1.8; }
+.md-typeset h1 { font-size: 2.1rem; line-height: 1.18; color: #153f34; font-weight: 750; letter-spacing: -.035em; margin-bottom: 1rem; text-wrap: balance; }
+.md-typeset h2 { font-weight: 730; color: #153f34; letter-spacing: -.02em; margin-top: 2.1em; line-height: 1.35; text-wrap: balance; }
+.md-typeset h3 { font-weight: 700; color: #153f34; }
+.md-typeset p, .md-typeset ul, .md-typeset ol { max-width: 73ch; }
+.md-typeset a { text-underline-offset: .18em; }
+.md-typeset a:hover { text-decoration: underline; }
+.md-typeset li { margin-bottom: .5em; }
+.md-typeset strong { font-weight: 750; }
+.md-typeset .lead { font-size: 1.04rem; line-height: 1.7; color: #496156; max-width: 58ch; }
+.md-typeset table:not([class]) { font-size: .73rem; line-height: 1.65; border-color: #dce3d7; }
+.md-typeset table:not([class]) th { background: #f0f2e8; color: #153f34; font-weight: 750; }
+.md-typeset .admonition, .md-typeset .admonition.note, .md-typeset .admonition.warning { background: #f6f5ee; border: 1px solid #b3c5af; box-shadow: none; font-size: .75rem; }
+.md-typeset .admonition > .admonition-title { background: #e9eedb; }
+.md-typeset .admonition > .admonition-title:before { color: #285a48; background-color: #285a48; }
+.md-typeset figure { margin: 1.6rem 0; }
+.md-typeset figure img { border-radius: 8px; border: 1px solid #dce3d7; }
+.md-typeset figcaption { max-width: 70ch; color: #496156; font-size: .68rem; font-style: normal; text-align: left; margin: .5rem 0 0; }
+.md-nav__link--active { font-weight: 750; }
+.md-footer-meta { background: #103127; }
+.md-typeset td { font-variant-numeric: tabular-nums; }
+@media (min-width: 76.25em) { .md-grid { max-width: 65rem; } }
+@media (max-width: 44.99em) {
+  .md-typeset h1 { font-size: 1.65rem; }
+  .md-typeset .lead { font-size: .94rem; }
+  .md-banner__inner { text-align: left; padding-inline: .8rem; }
+  .md-typeset table:not([class]) th, .md-typeset table:not([class]) td { min-width: 7rem; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

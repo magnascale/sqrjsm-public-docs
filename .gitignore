@@ -1,0 +1,7 @@
+.venv/
+.build-venv/
+site/
+__pycache__/
+.qa/
+.DS_Store
+*.log
