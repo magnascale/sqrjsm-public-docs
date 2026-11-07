@@ -4,7 +4,7 @@
 
 This portal documents **Service Quality Review for Jira Service Management**, by Magnascale. The app appears inside Jira as **Service Quality Review**.
 
-The app is available through Atlassian Marketplace. An authorized Atlassian administrator installs it and completes the applicable consent and licensing steps. See [Installation](../getting-started/installation.md).
+The app is available through [Atlassian Marketplace](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management). An authorized Atlassian administrator installs it and completes the applicable consent and licensing steps. See [Installation](../getting-started/installation.md).
 
 Screenshots use synthetic example data. Names, requests, and results shown there are illustrative, not customer endorsements or production records.
 

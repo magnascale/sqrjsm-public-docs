@@ -4,7 +4,7 @@ Service Quality Review is designed for **Jira Service Management Cloud**. Your s
 
 ## Installation checklist
 
-An authorized Atlassian administrator installs **Service Quality Review for Jira Service Management** from Atlassian Marketplace, reviews the requested permissions, and completes Atlassian's consent and licensing steps.
+An authorized Atlassian administrator installs [**Service Quality Review for Jira Service Management** from Atlassian Marketplace](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management), reviews the requested permissions, and completes Atlassian's consent and licensing steps.
 
 Before beginning a review program, confirm that:
 
