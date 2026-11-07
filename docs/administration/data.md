@@ -10,26 +10,24 @@ Stored evidence and derived content do not bypass current Jira/JSM access. The a
 
 Numeric report rows and completed-results CSV follow current issue visibility and exclude private notes, quotations, and AI text. See [Results and exports](../guides/results.md).
 
-## Fixed retention
+## History and temporary data
 
-Retention is fixed; there is no customer retention editor or legal-hold guarantee. Earlier parent-record expiry can shorten these periods. The table describes policy bounds, not an exact physical-deletion deadline. Background cleanup is bounded and can wait while related work remains active.
+Customer history is kept until your organization deletes it or uninstalls the app. Period closure, reopening, inactivity, and licence lapse do not expire that history. Current Jira and app permissions still govern access; privacy redaction and deletion take precedence.
+
+Temporary data has separate deadlines. There is no customer retention editor or legal-hold guarantee. The table describes policy bounds, not an exact physical-deletion deadline. Background cleanup is bounded and can wait while related work remains active.
 
 | Information | Retention |
 | --- | --- |
-| Unsubmitted drafts | Up to 90 days after last save. |
-| Unused AI evidence and suggestions | Up to 30 days after the request. |
-| Submitted reviews, revisions, cited evidence, and period history | Up to 365 days after the period first closes or is cancelled. Reopening or corrections do not restart that clock. |
-| Calibration history | Up to 365 days after reveal or cancellation, within a maximum 730-day exercise lifetime and earlier linked-record expiry. |
-| A period that is never closed | Hidden 730 days after opening, with advance notices. Cleanup can wait for related active work. |
-| Findings spanning periods | Subject to linked-period expiry, up to 365 days after the latest linked period first ends, and no more than 730 days after finding creation. |
-| Configuration audit history | 365 days. |
-| Published review criteria | While referenced, then 365 days after the last reference expires. |
-| In-app Updates and read state | Up to 365 days, never beyond the parent record. |
-| Program settings | Until program or site data is deleted. |
+| Drafts, submitted reviews, revisions, cited evidence, and period/selection history | Until customer deletion or uninstall. |
+| Calibration, findings, coaching, audit history, published criteria, and program settings | Until customer deletion or uninstall. |
+| Unused AI evidence and suggestions | Up to 30 days; content accepted into customer history follows that history. |
+| Operation replay receipts | Up to 30 days. |
+| In-app Updates and read state | Up to 365 days; shorter producer deadlines can apply. |
+| AI/worker control and proof records | Producer deadlines and safe-retry requirements. Active work is protected; cumulative allowance records remain to enforce caps. |
 | Content-free deletion receipts | 30 days. |
 | Program-closure safety marker | An opaque program identifier and completion time remain indefinitely after program deletion to block late writes; no account association or review content is retained in that marker. |
 
-Expired information is withheld when checked for access. Previously downloaded or delivered content cannot be recalled.
+Expired temporary information is withheld when checked for access. Previously downloaded or delivered content cannot be recalled.
 
 ## Delete a program or site app data
 

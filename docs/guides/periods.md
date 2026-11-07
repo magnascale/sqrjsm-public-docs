@@ -40,4 +40,4 @@ Assignments and reminders appear in **Updates** and app banners. There is no ema
 
 ## Finish the period
 
-Monitor progress, address blocked assignments using the available actions, and close the period when appropriate. Results can be read while a period is open, but remain provisional as reviews arrive or change. Closing a period also matters for the [retention clock](../administration/data.md).
+Monitor progress, address blocked assignments using the available actions, and close the period when appropriate. Results can be read while a period is open, but remain provisional as reviews arrive or change. Closing a period does not expire its history; see [Data and retention](../administration/data.md).
