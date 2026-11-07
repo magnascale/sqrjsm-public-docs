@@ -4,13 +4,19 @@
 
 This portal documents **Service Quality Review for Jira Service Management**, by Magnascale. The app appears inside Jira as **Service Quality Review**.
 
-The product is preparing for its first public Atlassian Marketplace release. A public listing and installation link are not yet available. These guides describe the accepted product workflow; they do not announce Marketplace approval or general availability.
+The app is available on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management) for Jira Cloud. Use the listing for installation, evaluation, and current pricing, and follow the [installation guide](../getting-started/installation.md) to arrange access.
 
 Screenshots use synthetic example data. Names, requests, and results shown there are illustrative, not customer endorsements or production records.
 
 ## Policy information
 
-Magnascale's shared policies are being extended with explicit Service Quality Review coverage for launch. Publication of this documentation does not make an unpublished policy draft an effective agreement. This portal's operational guides do not replace contractual terms.
+Magnascale's published shared policies include Service Quality Review coverage:
+
+- [Privacy Policy — Service Quality Review](https://magnascale.com/privacy-policy/#sqr-privacy)
+- [Security Policy — Service Quality Review](https://magnascale.com/security/#sqr-security)
+- [Data Processing Addendum — SQR processing schedule](https://magnascale.com/data-processing-addendum/#sqr-processing-schedule)
+
+The Marketplace listing links the [Atlassian Marketplace standard agreement](https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1). This portal's operational guides do not replace contractual terms. Policy revision dates and each customer's agreement date remain separate from Marketplace availability.
 
 For current documents or a procurement question, contact:
 

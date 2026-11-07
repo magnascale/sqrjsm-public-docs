@@ -1,8 +1,8 @@
 # Subscriptions and product limits
 
-Service Quality Review is preparing for a paid Atlassian Marketplace release. The planned offering is one paid edition using Atlassian's eligible host-user billing, rather than charging only for reviewers or reviewed agents.
+Service Quality Review is available as a paid app on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management), using Atlassian's eligible host-user billing rather than charging only for reviewers or reviewed agents.
 
-The listing and live quote are not yet available. When published, check the Marketplace quote for your actual host subscription, eligible user count, billing cycle, taxes, and evaluation terms. The app's billing cycle must match its host. Annual billing is not automatically cheaper at every user count.
+Check the Marketplace quote for your actual host subscription, eligible user count, billing cycle, taxes, and evaluation terms. The app's billing cycle must match its host. Annual billing is not automatically cheaper at every user count.
 
 ## When the licence changes
 

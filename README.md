@@ -4,7 +4,7 @@ Customer documentation for **Service Quality Review for Jira Service Management*
 
 **Portal:** https://magnascale.github.io/sqrjsm-public-docs/
 
-The portal covers setup, review programs, criteria, sampling, human assessments, optional AI, calibration, results, coaching, administration, and support. Product availability is described on the portal; the documentation's publication does not announce a Marketplace launch.
+The portal covers setup, review programs, criteria, sampling, human assessments, optional AI, calibration, results, coaching, administration, and support. The app is available on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management). Keep installation and policy links current on the portal.
 
 ## Local preview
 

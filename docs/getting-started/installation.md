@@ -2,12 +2,12 @@
 
 Service Quality Review is designed for **Jira Service Management Cloud**. Your site needs a service project with requests to review, and reviewers who can access those requests in Jira.
 
-!!! note "Marketplace availability"
-    The Marketplace listing is being prepared. An installation link will be added when it is available. These guides describe the accepted product workflow; publishing this documentation does not make the app generally available.
+!!! note "Available on Atlassian Marketplace"
+    [Open the Service Quality Review listing](https://marketplace.atlassian.com/apps/820182069/service-quality-review-for-jira-service-management) to install or evaluate the app and check current pricing.
 
 ## Installation checklist
 
-When the Marketplace listing is available, an authorized Atlassian administrator will install the app, review the requested permissions, and complete Atlassian's consent and licensing steps.
+An authorized Atlassian administrator installs the app from the Marketplace listing, reviews the requested permissions, and completes Atlassian's consent and licensing steps.
 
 Before beginning a review program, confirm that:
 
